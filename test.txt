@@ -1,3 +1,6 @@
-SELECT *
+SELECT
+	COUNT(*) AS total
 FROM Customers
-WHERE City <> 'Germany';
+
+WHERE
+	Country != 'Germany'
